@@ -1,5 +1,5 @@
-def sortStringByChar(myData):
-    myData.sort(reverse=True, key=len)
-    return myData
-myData = ['apel', 'rambutan', 'jeruk']
-print(sortStringByChar(myData))
+def sortStringByChar(namabuah):
+    namabuah.sort(reverse=True, key=len)
+    return namabuah
+urutan = ['apel', 'rambutan', 'jeruk']
+print(sortStringByChar(urutan))
